@@ -8,7 +8,7 @@ impl CA65Extension {
     fn language_server_binary_path(
         &mut self,
         _language_server_id: &LanguageServerId,
-        worktree: &zed::Worktree,
+        _worktree: &zed::Worktree,
     ) -> Result<String> {
         if let Some(path) = &self.cached_binary_path {
             return Ok(path.clone());
