@@ -1,4 +1,4 @@
 name = "CA65"
-grammar = "asm"
+grammar = "ca65"
 path_suffixes = ["s", "asm"]
 line_comments = ["; "]

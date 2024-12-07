@@ -6,9 +6,9 @@ authors = ["techwritescode <10032418+techwritescode@users.noreply.github.com>"]
 description = "Language support for CA65"
 repository = "https://github.com/techwritescode/ca65-zed"
 
-[grammars.asm]
-repository = "https://github.com/RubixDev/tree-sitter-asm"
-commit = "55b2b913f1e71136027d6fce8212e760c64f3532"
+[grammars.ca65]
+repository = "https://github.com/simonhochrein/tree-sitter-ca65"
+commit = "9e73befb5c3c6852f905964c22740c9605b03af8"
 
 [language_servers.ca65]
 name = "CA65 LSP"
