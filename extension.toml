@@ -1,0 +1,15 @@
+id = "ca65"
+name = "CA65 Assembly"
+version = "0.0.1"
+schema_version = 1
+authors = ["techwritescode <10032418+techwritescode@users.noreply.github.com>"]
+description = "Language support for CA65"
+repository = "https://github.com/techwritescode/ca65-zed"
+
+[grammars.asm]
+repository = "https://github.com/RubixDev/tree-sitter-asm"
+commit = "55b2b913f1e71136027d6fce8212e760c64f3532"
+
+[language_servers.ca65]
+name = "CA65 LSP"
+language = "CA65"

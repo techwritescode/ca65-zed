@@ -1,0 +1,4 @@
+name = "CA65"
+grammar = "asm"
+path_suffixes = ["s", "asm"]
+line_comments = ["; "]
